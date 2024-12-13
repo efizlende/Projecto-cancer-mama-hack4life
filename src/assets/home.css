@@ -1,0 +1,20 @@
+/* Arquivo CSS */
+@keyframes pulseAnimation {
+    0% {
+      transform: scale(1);
+      background-color: #4CAF50;
+    }
+    50% {
+      transform: scale(1.1);
+      background-color: #66bb6a;
+    }
+    100% {
+      transform: scale(1);
+      background-color: #4CAF50;
+    }
+  }
+  
+  .pulse-login {
+    animation: pulseAnimation 2s infinite ease-in-out;
+  }
+  

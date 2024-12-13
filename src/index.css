@@ -36,4 +36,15 @@
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
+  /* CSS global */
+body {
+  margin: 0;
+  padding-top: 64px; /* Ajuste conforme a altura da sua Navbar */
+}
+
+/* Ou se estiver usando Tailwind CSS, você pode fazer assim no contêiner principal: */
+.main-container {
+  padding-top: 64px; /* Ajuste conforme a altura da sua Navbar */
+}
+
 }
