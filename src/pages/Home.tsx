@@ -190,40 +190,40 @@ const Home: React.FC = () => {
               }}
             >
               <div className="flex-shrink-0">
-                <img src="../../public/enfermeiros-ordem.png" alt="Parceiro 1" className="h-16" />
+                <img src="enfermeiros-ordem.png" alt="Parceiro 1" className="h-16" />
               </div>
               <div className="flex-shrink-0">
-                <img src="../../public/medicos-ordem.jpg" alt="Parceiro 2" className="h-16" />
+                <img src="medicos-ordem.jpg" alt="Parceiro 2" className="h-16" />
               </div>
               <div className="flex-shrink-0">
-                <img src="../../public/enfermeiros-ordem.png" alt="Parceiro 2" className="h-16" />
+                <img src="enfermeiros-ordem.png" alt="Parceiro 2" className="h-16" />
               </div>
               <div className="flex-shrink-0">
-                <img src="../../public/medicos-ordem.jpg" alt="Parceiro 2" className="h-16" />
+                <img src="medicos-ordem.jpg" alt="Parceiro 2" className="h-16" />
               </div>
               <div className="flex-shrink-0">
-                <img src="../../public/enfermeiros-ordem.png" alt="Parceiro 2" className="h-16" />
+                <img src="enfermeiros-ordem.png" alt="Parceiro 2" className="h-16" />
               </div>
               <div className="flex-shrink-0">
-                <img src="../../public/medicos-ordem.jpg" alt="Parceiro 2" className="h-16" />
+                <img src="medicos-ordem.jpg" alt="Parceiro 2" className="h-16" />
               </div>
               <div className="flex-shrink-0">
-                <img src="../../public/enfermeiros-ordem.png" alt="Parceiro 2" className="h-16" />
+                <img src="enfermeiros-ordem.png" alt="Parceiro 2" className="h-16" />
               </div>
               <div className="flex-shrink-0">
-                <img src="../../public/medicos-ordem.jpg" alt="Parceiro 2" className="h-16" />
+                <img src="medicos-ordem.jpg" alt="Parceiro 2" className="h-16" />
               </div>
               <div className="flex-shrink-0">
-                <img src="../../public/enfermeiros-ordem.png" alt="Parceiro 2" className="h-16" />
+                <img src="enfermeiros-ordem.png" alt="Parceiro 2" className="h-16" />
               </div>
               <div className="flex-shrink-0">
-                <img src="../../public/medicos-ordem.jpg" alt="Parceiro 2" className="h-16" />
+                <img src="medicos-ordem.jpg" alt="Parceiro 2" className="h-16" />
               </div>
               <div className="flex-shrink-0">
-                <img src="../../public/enfermeiros-ordem.png" alt="Parceiro 2" className="h-16" />
+                <img src="enfermeiros-ordem.png" alt="Parceiro 2" className="h-16" />
               </div>
               <div className="flex-shrink-0">
-                <img src="../../public/medicos-ordem.jpg" alt="Parceiro 2" className="h-16" />
+                <img src="medicos-ordem.jpg" alt="Parceiro 2" className="h-16" />
               </div>
               
               {/* Adicione mais logotipos conforme necessário */}
