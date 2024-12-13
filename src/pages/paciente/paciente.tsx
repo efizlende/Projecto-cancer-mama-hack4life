@@ -171,10 +171,13 @@ const PacientePage: React.FC = () => {
       </div>
 
       {/* Ícone do WhatsApp */}
-      <div className="fixed bottom-4 right-4 flex items-center space-x-3 bg-pink-500 text-white p-3 rounded-full shadow-lg animate-bounce cursor-pointer">
-        <FaWhatsapp className="text-3xl" />
-        <span className="hidden sm:block font-bold">Tens duvida? Contacte!</span>
-      </div>
+      <a href="https://wa.me/846366613" target="_blank" rel="noopener noreferrer">
+  <div className="fixed bottom-4 right-4 flex items-center space-x-3 bg-pink-500 text-white p-3 rounded-full shadow-lg animate-bounce cursor-pointer">
+    <FaWhatsapp className="text-3xl" />
+    <span className="hidden sm:block font-bold">Tens dúvida? Contacte!</span>
+  </div>
+</a>
+
     </div>
   );
 };

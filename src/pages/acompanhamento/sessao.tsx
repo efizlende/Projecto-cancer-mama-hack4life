@@ -46,7 +46,7 @@ const ChatSessionPage: React.FC = () => {
       <div className="bg-pink-600 p-4 flex items-center space-x-3 text-white">
         <FaArrowLeft className="text-xl cursor-pointer" />
         <img
-          src="../../../public/depoimentos/d1.webp"
+          src="/depoimentos/d1.webp"
           alt="Profissional"
           className="w-12 h-12 rounded-full object-cover"
         />
