@@ -112,7 +112,6 @@ const Cadastro: React.FC = () => {
             >
               <option value="paciente">Paciente</option>
               <option value="profissional">Profissional de Saúde</option>
-              <option value="admin">Admin</option>
             </select>
           </div>
 

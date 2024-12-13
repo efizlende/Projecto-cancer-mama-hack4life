@@ -38,7 +38,7 @@ const Login: React.FC = () => {
     <div
       className="flex justify-center items-center min-h-screen bg-cover bg-center"
       style={{
-        backgroundImage: "url('../../public/img1.jpg')", // Substitua pelo link ou caminho da imagem
+        backgroundImage: "url('/img1.jpg')", // Substitua pelo link ou caminho da imagem
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
