@@ -22,7 +22,7 @@ const PacientePage: React.FC = () => {
   const educationalVideos = [
     {
       title: 'O que é câncer de mama?',
-      videoUrl: 'https://www.youtube.com/watch?v=Id8K--02kbY',
+      videoUrl: 'https://www.youtube.com/watch?v=RHad9Cvzx1k',
     },
     {
       title: 'Quais sao os sintomas do cancer da mama?',
