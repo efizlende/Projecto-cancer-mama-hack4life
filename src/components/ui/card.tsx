@@ -1,10 +1,9 @@
-// components/ui/card.tsx
 import * as React from "react";
-import { motion } from "framer-motion"; // Importando motion
+import { motion, MotionProps } from "framer-motion"; // Importando MotionProps
 
 import { cn } from "../../lib/utils";
 
-const Card = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElement>>(
+const Card = React.forwardRef<HTMLDivElement, MotionProps & React.HTMLAttributes<HTMLDivElement>>(
   ({ className, ...props }, ref) => (
     <motion.div
       ref={ref}
@@ -13,7 +12,8 @@ const Card = React.forwardRef<HTMLDivElement, React.HTMLAttributes<HTMLDivElemen
         className
       )}
       whileHover={{ scale: 1.05 }} // Animação ao passar o mouse
-      {...props}
+      drag // Ativando a funcionalidade de arrasto
+      {...props} // Passe outras props aqui, mas evite conflitos com drag
     />
   )
 );

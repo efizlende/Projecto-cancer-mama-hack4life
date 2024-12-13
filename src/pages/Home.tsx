@@ -44,7 +44,7 @@ const Home: React.FC = () => {
               Aqui, você encontra tudo o que precisa para o cuidado da sua saúde, apoio psicológico e a conscientização sobre o câncer de mama.
             </p>
             <div className="flex justify-center gap-4">
-              <Link to="/paciente/conscientizacao">
+              <Link to="/paciente/concientizacao">
                 <Button size="lg" className="bg-blue-500 hover:bg-blue-700 transition-colors duration-300">
                   Comece sua jornada
                 </Button>

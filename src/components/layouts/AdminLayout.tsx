@@ -5,7 +5,11 @@ import Sidebar from './../admin/Sidebar';
 import Footer from '../../components/admin/footer';
 import Dashboard from '../../pages/admin/Dashboard';
 
-const AdminLayout: React.FC = () => {
+interface AdminLayoutProps {
+  children?: React.ReactNode; // Adicionando children como opcional
+}
+
+const AdminLayout: React.FC<AdminLayoutProps> = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
@@ -46,7 +50,7 @@ const AdminLayout: React.FC = () => {
         {/* Page Content */}
         <main className="p-4 md:p-6 lg:p-8">
           <Dashboard/>
-          <Footer></Footer>
+          <Footer />
         </main>
       </div>
     </div>

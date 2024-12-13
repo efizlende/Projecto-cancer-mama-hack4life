@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+
 import '../../assets/home.css';
 
 interface PacienteLayoutProps {
@@ -6,7 +6,7 @@ interface PacienteLayoutProps {
 }
 
 const SessaoLayout: React.FC<PacienteLayoutProps> = ({ children }) => {
-  const [isOpen, setIsOpen] = useState(false);
+ // const [isOpen, setIsOpen] = useState(false);
 
 
 

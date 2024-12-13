@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaWhatsapp } from 'react-icons/fa';
 
 const AcompanhamentoPage: React.FC = () => {
-  const [currentImage, setCurrentImage] = useState(0);
+//  const [currentImage, setCurrentImage] = useState(0);
   const [comments, setComments] = useState<string[]>([]);
 
   const testimonials = [

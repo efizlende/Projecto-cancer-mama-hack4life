@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FaInfoCircle, FaHandshake, FaSignInAlt } from 'react-icons/fa';
+import { FaInfoCircle, FaHandshake } from 'react-icons/fa';
 import Logo from '../../../public/logo.png';
 import '../../assets/home.css';
 import Footer from '../Footer';
