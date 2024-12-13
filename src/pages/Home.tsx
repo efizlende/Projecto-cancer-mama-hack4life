@@ -8,11 +8,11 @@ const Home: React.FC = () => {
   const [currentImage, setCurrentImage] = useState(0);
 
   const images = [
-    '../../public/img3.jpg',
-    '../../public/img2.jpg',
-    '../../public/img1.jpg',
-    '../../public/img1.jpg',
-    '../../public/img2.jpg',
+    '/img3.jpg',
+    '/img2.jpg',
+    '/img1.jpg',
+    '/img1.jpg',
+    '/img2.jpg',
   ];
 
   useEffect(() => {
