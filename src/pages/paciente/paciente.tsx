@@ -37,17 +37,17 @@ const PacientePage: React.FC = () => {
   const articlesAndBooks = [
     {
       title: 'Guia para Prevenção do Câncer de Mama',
-      imageUrl: '../../../public/livros/l1.webp',
+      imageUrl: 'livros/l1.webp',
       link: 'https://extranet.who.int/ncdccs/Data/MOZ_D1_Normas%20Cancro%20da%20Mama%20web.pdf',
     },
     {
       title: 'Vencendo o Estigma do Câncer de Mama',
-      imageUrl: '../../../public/livros/l2.jpeg',
+      imageUrl: 'l2.jpeg',
       link: 'https://bvsms.saude.gov.br/bvs/periodicos/ccs_artigos/impactos_psicologicos_tratamento_cancer.pdf',
     },
     {
       title: 'Como apoiar mulheres diagnosticadas',
-      imageUrl: '../../../public/livros/l3.jpg',
+      imageUrl: 'l3.jpg',
       link: 'https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://dialnet.unirioja.es/descarga/articulo/8587194.pdf&ved=2ahUKEwjr8pruwo-KAxUtQEEAHeWBIoYQFnoECBcQAQ&usg=AOvVaw105865hqx-SAH1fUuIkNal',
     },
   ];
