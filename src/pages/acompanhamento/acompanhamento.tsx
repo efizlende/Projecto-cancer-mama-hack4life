@@ -52,7 +52,7 @@ const AcompanhamentoPage: React.FC = () => {
       <div className="relative">
         <div
           className="h-96 bg-cover bg-center"
-          style={{ backgroundImage: `url('img2.jpg')` }}
+          style={{ backgroundImage: `url('/img2.jpg')` }}
         ></div>
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <h1 className="text-white text-4xl md:text-6xl font-bold">
