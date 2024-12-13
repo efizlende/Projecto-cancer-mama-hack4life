@@ -9,19 +9,19 @@ const AcompanhamentoPage: React.FC = () => {
   const testimonials = [
     {
       name: 'Maria Oliveira',
-      imageUrl: '../../../public/depoimentos/d1.webp',
+      imageUrl: '/depoimentos/d1.webp',
       testimonial: 'Superar o câncer de mama foi um desafio, mas com apoio e perseverança, eu consegui.',
       videoUrl: 'https://www.youtube.com/watch?v=RHad9Cvzx1k',
     },
     {
       name: 'Ana Silva',
-      imageUrl: '../../../public/depoimentos/d2.jpg',
+      imageUrl: '/depoimentos/d2.jpg',
       testimonial: 'A luta contra o câncer é difícil, mas nunca se deve perder a esperança.',
       videoUrl: 'https://www.youtube.com/watch?v=9_cY9VKIl0I',
     },
     {
       name: 'Luísa Costa',
-      imageUrl: '../../../public/depoimentos/d3.webp',
+      imageUrl: '/depoimentos/d3.webp',
       testimonial: 'Tive o apoio de muitos profissionais e familiares. Hoje, sou uma guerreira vencedora.',
       videoUrl: 'https://www.youtube.com/watch?v=vfum4N9QwR8',
     },
@@ -30,12 +30,12 @@ const AcompanhamentoPage: React.FC = () => {
   const professionals = [
     {
       name: 'Dr. João Alves',
-      photoUrl: '../../../public/depoimentos/d1.webp',
+      photoUrl: '/depoimentos/d1.webp',
       specialty: 'Nutricionista',
     },
     {
       name: 'Dra. Clara Mendes',
-      photoUrl: '../../../public/depoimentos/d3.webp',
+      photoUrl: '/depoimentos/d3.webp',
       specialty: 'Psicóloga',
     },
   ];
@@ -52,7 +52,7 @@ const AcompanhamentoPage: React.FC = () => {
       <div className="relative">
         <div
           className="h-96 bg-cover bg-center"
-          style={{ backgroundImage: `url('../../../public/img2.jpg')` }}
+          style={{ backgroundImage: `url('img2.jpg')` }}
         ></div>
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <h1 className="text-white text-4xl md:text-6xl font-bold">
