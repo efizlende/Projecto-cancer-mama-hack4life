@@ -22,14 +22,14 @@ const PacientePage: React.FC = () => {
   const educationalVideos = [
     {
       title: 'O que é câncer de mama?',
-      videoUrl: 'https://www.youtube.com/watch?v=RHad9Cvzx1k',
+      videoUrl: 'https://www.youtube.com/watch?v=Id8K--02kbY',
     },
     {
-      title: 'Quais sao os sintomas do cancer da mama?',
-      videoUrl: 'quais os sintomas do cancro da mama',
+      title: 'Quais são os sintomas do câncer da mama?',
+      videoUrl: 'https://www.youtube.com/watch?v=9_cY9VKIl0I', // Colocando a URL completa para funcionar como vídeo embutido
     },
     {
-      title: 'Como prevenir o cancro da mama',
+      title: 'Como prevenir o câncer de mama',
       videoUrl: 'https://www.youtube.com/watch?v=lTRevKrtB7o',
     },
   ];
@@ -88,35 +88,6 @@ const PacientePage: React.FC = () => {
           </div>
         </section>
 
-        {/* Sintomas, prevenção e diagnóstico */}
-        <section className="mt-12 grid md:grid-cols-3 gap-6">
-          {[
-            {
-              title: 'O que é câncer de mama?',
-              description:
-                'O câncer de mama é uma doença causada pela multiplicação desordenada de células na mama. Conheça os fatores de risco e como identificá-los.',
-            },
-            {
-              title: 'Sintomas',
-              description:
-                'Nódulo palpável, alterações no formato ou tamanho da mama, e secreções incomuns são sinais de alerta.',
-            },
-            {
-              title: 'Prevenção',
-              description:
-                'Realize o autoexame regularmente, consulte um médico e adote hábitos saudáveis para reduzir os riscos.',
-            },
-          ].map((item, index) => (
-            <div
-              key={index}
-              className="p-6 bg-white shadow rounded-lg hover:bg-pink-800 transition-colors duration-300 transform hover:-translate-y-1"
-            >
-              <h3 className="text-xl font-bold text-pink-600">{item.title}</h3>
-              <p className="text-gray-700 mt-2">{item.description}</p>
-            </div>
-          ))}
-        </section>
-
         {/* Vídeos Educativos */}
         <section className="mt-12">
           <h2 className="text-2xl font-bold text-center text-pink-600">Vídeos Educativos</h2>
@@ -130,7 +101,7 @@ const PacientePage: React.FC = () => {
                 <iframe
                   className="w-full mt-2"
                   height="200"
-                  src={video.videoUrl}
+                  src={`https://www.youtube.com/embed/${video.videoUrl.split('v=')[1]}`}
                   title={video.title}
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -172,12 +143,11 @@ const PacientePage: React.FC = () => {
 
       {/* Ícone do WhatsApp */}
       <a href="https://wa.me/846366613" target="_blank" rel="noopener noreferrer">
-  <div className="fixed bottom-4 right-4 flex items-center space-x-3 bg-pink-500 text-white p-3 rounded-full shadow-lg animate-bounce cursor-pointer">
-    <FaWhatsapp className="text-3xl" />
-    <span className="hidden sm:block font-bold">Tens dúvida? Contacte!</span>
-  </div>
-</a>
-
+        <div className="fixed bottom-4 right-4 flex items-center space-x-3 bg-pink-500 text-white p-3 rounded-full shadow-lg animate-bounce cursor-pointer">
+          <FaWhatsapp className="text-3xl" />
+          <span className="hidden sm:block font-bold">Tens dúvida? Contacte!</span>
+        </div>
+      </a>
     </div>
   );
 };
